@@ -34,5 +34,3 @@ class Downloader:
         '''Generates file names from 1 to n (where n is a number of images)'''
         self.__iter += 1
         return str(self.__iter) + '.jpg'
-
-Downloader('https://cdn.lifehacker.ru/wp-content/uploads/2016/12/2016-12-1212-36-15_1481539098.png').download()
